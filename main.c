@@ -36,7 +36,7 @@ void delay_short()
 }
 int main()
 {
-    uart_send_str("Anna University!");
+    uart_send_str("hello world");
     GCSR->GPIO_0 = 0x55;
     while (1)
     {
